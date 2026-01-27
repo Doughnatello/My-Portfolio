@@ -78,8 +78,8 @@ export const Footer = () => {
             </h3>
             <ul className="space-y-3 font-body text-muted-foreground">
               <li>donatoalona.05@gmail.com</li>
-              <li>San Francisco, CA</li>
-              <li>Available for freelance</li>
+              <li>Mandaluyong City, Metro Manila</li>
+              <li>Available for freelance/Contract</li>
             </ul>
           </div>
         </div>
