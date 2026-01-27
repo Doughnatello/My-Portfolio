@@ -77,7 +77,7 @@ export const Footer = () => {
               Get in Touch
             </h3>
             <ul className="space-y-3 font-body text-muted-foreground">
-              <li>alona.donato@email.com</li>
+              <li>donatoalona.05@gmail.com</li>
               <li>San Francisco, CA</li>
               <li>Available for freelance</li>
             </ul>
