@@ -59,7 +59,7 @@ export const HeroSection = () => {
               variant="outline"
               className="font-display text-lg tracking-wider border-primary/50 text-primary hover:bg-primary/10"
             >
-              <Link to="/contact">
+              <Link to="https://drive.google.com/file/d/1w8HPbu44UkFbEz7--OMgvY5D4ta8_6uH/view?usp=sharing">
                 <Download className="mr-2 w-5 h-5" />
                 Download CV
               </Link>

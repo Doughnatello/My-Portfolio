@@ -21,25 +21,25 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "alona.donato@email.com",
-    href: "mailto:alona.donato@email.com",
+    value: "donatoalona.05@gmail.com",
+    href: "mailto:donatoalona.05@gmail.com",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Mandaluyong City, Metro Manila",
     href: null,
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "+63 936 954 3958",
+    href: "tel:+639369543958",
   },
 ];
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
+  { icon: Github, href: "https://github.com/Doughnatello", label: "GitHub" },
   { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
   { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
 ];
