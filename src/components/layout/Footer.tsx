@@ -5,7 +5,7 @@ const socialLinks = [
   { icon: Github, href: "https://github.com", label: "GitHub" },
   { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
   { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Mail, href: "mailto:alona@example.com", label: "Email" },
+  { icon: Mail, href: "mailto:donatoalona.05@gmail.com", label: "Email" },
 ];
 
 const footerLinks = [
