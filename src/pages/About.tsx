@@ -63,11 +63,11 @@ const About = () => {
               </div>
               {/* Floating badges */}
               <div className="absolute -top-4 -right-4 glass p-4 rounded-xl neon-glow">
-                <span className="font-display text-2xl font-bold text-primary">6+</span>
+                <span className="font-display text-2xl font-bold text-primary">0</span>
                 <span className="block font-mono text-xs text-muted-foreground">Years Exp</span>
               </div>
               <div className="absolute -bottom-4 -left-4 glass p-4 rounded-xl neon-glow-magenta">
-                <span className="font-display text-2xl font-bold text-secondary">50+</span>
+                <span className="font-display text-2xl font-bold text-secondary"></span>
                 <span className="block font-mono text-xs text-muted-foreground">Projects</span>
               </div>
             </div>
@@ -84,8 +84,8 @@ const About = () => {
                 <span className="text-primary neon-text">Experiences</span>
               </h1>
               <p className="font-body text-xl text-muted-foreground leading-relaxed mb-6">
-                I'm Alona Donato, a passionate full-stack developer based in San Francisco. 
-                With over 6 years of experience in building cutting-edge web applications, 
+                I'm Alona Donato, a passionate full-stack developer based in Mandaluyong City. Metro Manila, Philippines. 
+                With 4 years of experience in building cutting-edge web applications in college era, 
                 I specialize in creating seamless user experiences powered by modern technologies.
               </p>
               <p className="font-body text-lg text-muted-foreground leading-relaxed mb-8">
@@ -95,7 +95,7 @@ const About = () => {
               </p>
               <div className="flex items-center gap-4 text-muted-foreground">
                 <MapPin className="w-5 h-5 text-primary" />
-                <span className="font-body">San Francisco, California</span>
+                <span className="font-body">Mandaluyong City. Metro Manila, Philippines</span>
               </div>
             </div>
           </div>
@@ -183,10 +183,11 @@ const About = () => {
                     <span className="font-display text-lg font-semibold">Fun Facts</span>
                   </div>
                   <ul className="space-y-2 font-body text-muted-foreground">
-                    <li>• Open source contributor with 1000+ GitHub stars</li>
-                    <li>• Speaker at tech conferences worldwide</li>
-                    <li>• Mentor for aspiring developers</li>
+                    <li>• Can play a recorder flute</li>
+                    <li>• I Can See the Unseen</li>
+                    <li>• I’m a "Polyglot" by Nature</li>
                     <li>• Coffee enthusiast ☕</li>
+                    <li>• I Have a Creative Side</li>
                   </ul>
                 </div>
               </GlowCard>

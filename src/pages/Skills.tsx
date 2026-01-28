@@ -130,13 +130,13 @@ const Skills = () => {
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
             <GlowCard className="text-center">
               <div className="text-5xl font-display font-bold text-primary neon-text mb-2">
-                6+
+                0
               </div>
               <p className="font-body text-muted-foreground">Years of Experience</p>
             </GlowCard>
             <GlowCard className="text-center">
               <div className="text-5xl font-display font-bold text-secondary neon-text-magenta mb-2">
-                50+
+                0
               </div>
               <p className="font-body text-muted-foreground">Projects Completed</p>
             </GlowCard>
