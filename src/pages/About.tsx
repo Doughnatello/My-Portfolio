@@ -4,47 +4,21 @@ import { GlowCard } from "@/components/ui/GlowCard";
 import { TechBadge } from "@/components/ui/TechBadge";
 import { Award, Briefcase, GraduationCap, Heart, MapPin, Zap } from "lucide-react";
 
-const experiences = [
-  {
-    title: "Senior Full-Stack Developer",
-    company: "TechCorp Innovation",
-    period: "2022 - Present",
-    description: "Leading development of AI-powered enterprise applications using React and Node.js.",
-  },
-  {
-    title: "Full-Stack Developer",
-    company: "StartupX Labs",
-    period: "2020 - 2022",
-    description: "Built scalable microservices and real-time collaboration tools for remote teams.",
-  },
-  {
-    title: "Frontend Developer",
-    company: "Digital Agency Pro",
-    period: "2018 - 2020",
-    description: "Crafted responsive web applications and interactive user experiences.",
-  },
-];
-
 const education = [
   {
-    degree: "M.S. Computer Science",
-    school: "Stanford University",
-    year: "2018",
-  },
-  {
-    degree: "B.S. Software Engineering",
-    school: "MIT",
-    year: "2016",
+    degree: "B.S. Computer Science",
+    school: "Dr. Ruby Lanting Casaul Eductional Foundation Inc.",
+    year: "2024",
   },
 ];
 
 const interests = [
   "Artificial Intelligence",
-  "Blockchain Technology",
+  "Web Development",
   "Open Source",
-  "Quantum Computing",
-  "Cybersecurity",
-  "Space Tech",
+  "Web Design",
+  "Photo Editing",
+  "UI/UX",
 ];
 
 const About = () => {
@@ -102,33 +76,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Experience Section */}
-      <section className="py-24 bg-card/30">
-        <div className="container mx-auto px-6">
-          <SectionHeader
-            label="Career"
-            title="Work Experience"
-            align="left"
-          />
-
-          <div className="space-y-8 max-w-3xl">
-            {experiences.map((exp, index) => (
-              <GlowCard key={index} className="relative pl-8 border-l-2 border-primary/30">
-                <div className="absolute -left-3 top-6 w-6 h-6 rounded-full bg-primary/20 border-2 border-primary flex items-center justify-center">
-                  <Briefcase className="w-3 h-3 text-primary" />
-                </div>
-                <span className="font-mono text-sm text-primary">{exp.period}</span>
-                <h3 className="font-display text-xl font-bold text-foreground mt-2">
-                  {exp.title}
-                </h3>
-                <p className="font-body text-secondary text-lg">{exp.company}</p>
-                <p className="font-body text-muted-foreground mt-2">{exp.description}</p>
-              </GlowCard>
-            ))}
-          </div>
-        </div>
-      </section>
-
+      
       {/* Education & Interests */}
       <section className="py-24">
         <div className="container mx-auto px-6">
