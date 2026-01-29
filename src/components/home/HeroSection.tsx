@@ -30,7 +30,7 @@ export const HeroSection = () => {
           {/* Subtitle with typing effect */}
           <div className="font-mono text-lg md:text-xl text-muted-foreground mb-8">
             <span className="text-primary">{">"}</span>
-            <span> Full-Stack Developer & AI Enthusiast</span>
+            <span> Full-Stack Developer and Web Design/ Developing</span>
             <span className="text-primary cursor-blink"></span>
           </div>
 
@@ -43,16 +43,7 @@ export const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <Button
-              asChild
-              size="lg"
-              className="font-display text-lg tracking-wider bg-primary text-primary-foreground hover:bg-primary/90 neon-glow group"
-            >
-              <Link to="/projects">
-                View My Work
-                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Link>
-            </Button>
+          
             <Button
               asChild
               size="lg"

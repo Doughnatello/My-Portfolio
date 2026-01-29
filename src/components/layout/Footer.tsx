@@ -10,7 +10,6 @@ const socialLinks = [
 
 const footerLinks = [
   { name: "About", path: "/about" },
-  { name: "Projects", path: "/projects" },
   { name: "Blog", path: "/blog" },
   { name: "Contact", path: "/contact" },
 ];
